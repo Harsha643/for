@@ -98,9 +98,12 @@ console.log("-----------------------------------------------------------")
 
 
 
-var arr= [];
-arr.push(10 ,20 ,30,40,50);
-console.log(arr);
+var arr= [10,20,30,40,50];
+// arr.push(10 ,20 ,30,40,50);
+console.log(arr[0],arr[1],arr[2],arr[3],arr[4]);
+for(var i = 0; i<=4 ; i++){
+    console.log(arr[i])
+}
 
 
 console.log("-----------------------------------------------------------")
@@ -121,6 +124,10 @@ const fruits = [];
 fruits.push("banana", "apple", "cherry");
 fruits[4]='peach';
 console.log(fruits[3]); //undefined
-console.log(fruits);
+console.log(fruits );
+for (var a = 0 ; a< fruits.length; a++){
+    console.log(`Index${a}:${fruits[a]}`)
+
+}
 
 
